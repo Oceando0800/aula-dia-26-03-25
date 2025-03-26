@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zen Tokyo Zoo', sans-serif;
+    background-color: #F0E0F6;
+    color: #6D4C9F;
+}
+
+header {
+    background-color: #FF8AB0;
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5rem;
+    font-family: 'Sarpanch', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+#intro {
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #5D2F8E;
+}
+
+#characters {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+}
+
+.character {
+    width: 280px;
+    background-color: #FFF0F6;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.character img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.character h2 {
+    font-size: 1.5rem;
+    color: #D81B60;
+    margin-top: 15px;
+}
+
+.character p {
+    font-size: 1rem;
+    color: #5D2F8E;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #FF8AB0;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

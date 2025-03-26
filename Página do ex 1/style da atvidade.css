@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.vermelho { background-color: palevioletred; }
+.azul { background-color: paleturquoise; }
+.verde { background-color:palegreen; }
+.amarelo { background-color: palegoldenrod; }
